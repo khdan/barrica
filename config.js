@@ -16,7 +16,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:adriana@barrica.ca',
+      url: 'mailto:adriana@barrica.ca?subject=I visited Barrica.ca please me more information&body=Hi my name is: (please include your name) Please contact me to this number:',
     },
   ],
 };

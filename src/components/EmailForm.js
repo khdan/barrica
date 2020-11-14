@@ -12,14 +12,15 @@ export class EmailForm extends Component {
     e.stopPropagation();
     this.setState({ message: 'Thank you!' });
     setTimeout(() => {
-      this.setState({ message: '' });
-    }, 3000);
+      this.setState({ message: 'Received' });
+    }, 1000);
   }
 
   render() {
     const { message } = this.state;
     return (
-      <form id="signup-form" onSubmit={this.onSubmit} method="post" action="#">
+      <form name="contact form" id="signup-form" onSubmit={this.onSubmit} method="post"  data-netlify="true">
+      <input type="hidden" name="form-name" value="Contact Form" />
         <input
           type="email"
           name="email"
