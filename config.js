@@ -11,7 +11,7 @@ module.exports = {
   // social
   heading: 'Barrica Imports Inc.',
   subHeading:
-    "We are a boutique agency representing wineries from different regions of the world that produces great quality wines. We celebreate their passion and unique flavours of their land while opening new opportunities for them in the Canadian market.",
+    "We are a boutique agency representing wineries from different regions of the world that produces great quality wines. We celebrate their passion and unique flavours of their land while opening new opportunities for them in the Canadian 🇨🇦  market.",
   socialLinks: [
     {
       icon: 'fa-envelope-o',
